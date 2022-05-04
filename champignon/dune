@@ -1,0 +1,7 @@
+(executable
+  (name champignon)
+  (libraries lib unix gui raylib))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))

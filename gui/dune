@@ -1,0 +1,4 @@
+(library
+  (name gui)
+  (modules Scale TextInput Button Label Space Message Grid Layout)
+  (libraries raylib lib))

@@ -1,0 +1,7 @@
+(executable
+  (name solo)
+  (libraries lib))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))

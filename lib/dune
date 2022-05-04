@@ -1,0 +1,9 @@
+(library
+  (name lib)
+  (modules 
+    game
+    map
+    player
+    action
+    network)
+    (libraries unix))
